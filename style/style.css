@@ -15,6 +15,7 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     color: var(--section-header-color);
+    text-transform: capitalize;
 }
 p, li, a, span{
     color: var(--text-color-01);
@@ -58,6 +59,81 @@ header{
   );
     transition: all 1s ease;
 }
+
+
+/* All sections have some common style */
+
+.feature_section{
+   background-color: var(--background-color-01);
+   padding: 100px 200px;
+}
+.section_header{
+    padding-bottom: 40px;
+}
+.section_card{
+    padding-bottom: 120px;
+}
+.card, .host_article{
+    background-color: var(--background-color-02);
+    border-radius: 10px;
+}
+.card:hover,.host_article:hover{
+    box-shadow: 0 10px 10px rgba(79, 77, 133, 0.484);
+    transition: 0.5s ease-in;
+}
+.host_article{
+    padding: 48px 40px
+}
+.host_image{
+    width: 200px;
+    height: 200px;
+}
+.host_content{
+    width: 880px;
+}
+.host_content,h3,p{
+    padding-bottom: 16px;
+
+}
+.host_content .social_link_image{
+    border: 1px solid rgb(163, 47, 47);
+    width: 40px;
+    padding: 8px;
+    border-radius: 50%;
+}
+.social_link_image img{
+    width: 100%;
+}
+.host_image img{
+    width: 100%;
+}
+.card_video iframe{
+    width: 100%;
+   
+}
+.card_content{
+    padding: 24px;
+    
+}
+.card_content h4,p{
+    padding-bottom: 12px;
+}
+.number_of_time{
+    color:var(--number-color);
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
