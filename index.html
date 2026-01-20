@@ -24,23 +24,46 @@
                <h1 class="text-3xl font-extrabold ">Tech<span class="side_design">Wave</span></h1>
             </div>
             <!-- Navigation Menu -->
-            <nav>
-                <ul class="flex flex-row gap-6 text-base">
+            <nav class="navigation_menu ">
+                <ul class="lg:flex flex-row  gap-6 text-base ">
                     <li><a href="#" class="">About</a></li>
                     <li><a href="#" class="">Episodes</a></li>
                     <li><a href="#" class="">Host</a></li>
                 </ul>
             </nav>
             <button class="subscribe_button "> Subscribe <i class="fa-solid fa-arrow-right"></i></button>
-           
+            <div class="toggle_bar lg:hidden sm:block">
+                <img src="./assets/hamburger-menu.png" alt="">
+            </div>
         </div>      
         
     </header>
     <main>
+        <section class="banner_section flex flex-col items-center text-center"> ">
+           <div class="banner_content w-xl mx-auto items-center flex flex-col gap-8">
+               <div class="banner_image lg:w-sm  relative">
+                   <img src="./assets/hero-circle.png" alt="">
+                   <span class="badge">New</span>
+                   <img class="microphone_image" src="./assets/microphone.png" alt="">
+               </div>
+               <div class="banner_header ">
+                   <h1 class="text-5xl font-bold p-4">TechWave</h1>
+                   <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
+               </div>
+               <div class="button_group flex flex-row gap-6  justify-around">
+                   <button class="spotify_button justify-center flex flex-row gap-2"><img src="./assets/spotify.png" alt="">Listen on Spotify</button>
+                   <button class="mail_button flex flex-row gap-2 "><img src="./assets/message.png" alt="">Subscribe</button>
+               </div>
+
+           </div>
+           
+            
+            
+        </section>
         <section class="about_podcast_section flex flex-col items-center text-center">
             <div class="podcast_content w-5xl">
                 <div class="section_header ">
-                <h1 class="text-5xl font-bold">about the podcast</h1>
+                <h1 class=" text-5xl  font-bold">about the podcast</h1>
 
             </div>
             <div class="content_paragraph ">
@@ -59,8 +82,8 @@ Join thousands of young professionals and tech enthusiasts who start their day w
             </div>
             <hr class="w-5xl border border-blue line-break">
 
-            <div class="counting_people flex flex-row gap-20">
-                <div class="counting_section">
+            <div class="counting_people flex flex-row gap-20 justify-between mt-10">
+                <div class="counting_section items-center">
                     <h1 class="section_number text-5xl font-bold">150K+</h1>
                     <h6 class="text-base">Monthly Listeners</h6>
                 </div>
@@ -78,13 +101,13 @@ Join thousands of young professionals and tech enthusiasts who start their day w
                 </div>
             </div>
         </section>
-        <section class="choose_section flex flex-col items-center ">
+        <section class="choose_section flex flex-col items-center text-center ">
             <div class="section_header ">
                 <h1 class="text-5xl font-bold">Why Choose TechWave</h1>
             </div>
             
             <div class="choose_section_card">
-                <div class="grid grid-flow-col grid-rows-3 gap-6 w-5xl">
+                <div class="all_choose_card grid grid-flow-col grid-rows-3 text-left gap-6 w-5xl">
                     <div class="choose_card row-span-2 flex flex-col">
                         <div class="card_image">
                             <img src="./assets/headphone.png" alt="">
@@ -94,7 +117,7 @@ Join thousands of young professionals and tech enthusiasts who start their day w
                             <p>Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                         </div>
                     </div>
-                    <div class="choose_card col-span-2 flex flex-col">
+                    <div class="choose_card col-span-2 lg:col-span-1 flex flex-col">
                         <div class="card_image">
                             <img src="./assets/location.png" alt="">
                         </div>
