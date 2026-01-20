@@ -222,6 +222,7 @@ p {
 
 .card_content {
     padding: 24px;
+    text-align: left;
 
 }
 .card_content,.card_image ,.card-content, h4,
@@ -254,7 +255,7 @@ p {
 
 /* Mobile Responsive CSS  */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 576px) {
     /* Navigation Menu */
    
     .navigation_menu{
@@ -272,7 +273,7 @@ p {
    
     }   
     .banner_content,.choose_section,.feature_section,.footer{
-        padding: 40px 20px;   
+        padding: 80px 20px;   
     }      
     .banner_image{
         width:200px;
@@ -352,6 +353,7 @@ p {
     .host_content{
         width:350px;
         margin: 0 auto;
+        text-align: center;
     }
     .host_social_link{
         justify-content: center;
