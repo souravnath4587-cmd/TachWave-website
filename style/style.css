@@ -240,6 +240,7 @@ p {
 
 
 /* Footer Section  */
+
 .footer {
     background-image: url("../assets/footer-bg.png");
     background-repeat: no-repeat;
@@ -253,8 +254,9 @@ p {
 
 /* Mobile Responsive CSS  */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     /* Navigation Menu */
+   
     .navigation_menu{
         display: none;
     }
@@ -281,8 +283,9 @@ p {
         width: 100%;
     } 
     .banner_header,.section_header,.content_paragraph{
-        width: 400px;
+        width: 350px;
         margin: 0 auto;
+
     }
     .badge{
             top: 12px;
@@ -366,11 +369,9 @@ p {
     .footer_social_link {
         flex-wrap:wrap;
         width: 300px;
-        /* margin: 0 auto; */
         gap: 20px;
         padding:20px;
         justify-content: space-around;
-        border: 1px solid orange;
     }
 
 
